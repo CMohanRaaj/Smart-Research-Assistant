@@ -96,6 +96,6 @@ Displays generated summaries, insights, and recommendations.
 
 ## Author
 
-C. Mohan Raaj
-B.E. Computer Science and Engineering
-Sathyabama Institute of Science and Technology
+#C. Mohan Raaj
+#B.E. Computer Science and Engineering
+3Sathyabama Institute of Science and Technology
