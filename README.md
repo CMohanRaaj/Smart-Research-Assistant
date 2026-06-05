@@ -1,2 +1,1 @@
-# Smart-Research-Assistant
-Developed an Agentic AI-powered Research Assistant that automates literature search, research paper summarization, knowledge retrieval, and insight generation using IBM Granite Models and RAG.
+Smart Research Assistant is an AI-powered research companion that helps users discover, analyze, and summarize academic research papers using IBM Granite Models, LangFlow, ChromaDB, and Retrieval-Augmented Generation (RAG).
