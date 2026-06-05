@@ -1,111 +1,100 @@
-Smart Research Assistant
-Overview
+# Smart Research Assistant
 
-Smart Research Assistant is an AI-powered research companion that helps users discover, analyze, and summarize academic research papers using IBM Granite Models, LangFlow, ChromaDB, and Retrieval-Augmented Generation (RAG).
+An AI-powered research assistant built using IBM Granite Models, IBM watsonx.ai, LangFlow, ChromaDB, and Retrieval-Augmented Generation (RAG) to streamline literature review, research paper discovery, knowledge retrieval, and academic insight generation.
 
-Problem Statement
+---
 
-Researchers often spend significant time searching for relevant literature, reviewing papers, managing references, and extracting insights from multiple sources. Smart Research Assistant automates these tasks and provides intelligent research support.
+## Overview
 
-Features
-Academic paper retrieval using arXiv
-AI-powered research paper summarization
-RAG-based knowledge retrieval
-Semantic search using ChromaDB
-Research insight generation
-Literature review assistance
-Context-aware question answering
-Agentic AI workflow orchestration
-Technology Stack
-IBM Granite Models
-IBM watsonx.ai
-LangFlow
-ChromaDB
-Retrieval-Augmented Generation (RAG)
-Python
-IBM Cloud Lite Services
-arXiv API
-Architecture
-User Query
-     ↓
-Chat Input
-     ↓
-IBM Granite Model
-     ↓
-Research Agent
-   ↙      ↘
-arXiv    ChromaDB
-   ↘      ↙
-    RAG Retrieval
-          ↓
-   Research Analysis
-          ↓
-     Chat Output
-Components Used
-Chat Input
+Smart Research Assistant is an Agentic AI system that automates research-intensive tasks by combining large language models with semantic retrieval. The platform enables users to search academic literature, analyze research findings, summarize papers, and generate context-aware insights through an intelligent multi-component workflow.
 
-Accepts research queries from users.
+---
 
-IBM watsonx.ai
+## Key Features
 
-Processes queries using IBM Granite Models.
+* Academic paper retrieval through arXiv
+* Research paper summarization
+* Retrieval-Augmented Generation (RAG)
+* Semantic search using ChromaDB
+* Intelligent research assistance
+* Literature review support
+* Knowledge discovery and insight generation
+* Agentic AI workflow orchestration
 
-Agent Component
+---
 
-Coordinates tool execution and research workflows.
+## System Architecture
 
-ChromaDB
+User Query → IBM Granite Model → Research Agent → arXiv + ChromaDB → RAG Retrieval → Research Analysis → Response Generation
 
-Stores vector embeddings and enables semantic retrieval.
+---
 
-arXiv Tool
+## Technology Stack
 
-Retrieves academic papers and publications.
+| Technology         | Purpose                                      |
+| ------------------ | -------------------------------------------- |
+| IBM Granite Models | Natural language understanding and reasoning |
+| IBM watsonx.ai     | Model inference and deployment               |
+| LangFlow           | Agent workflow orchestration                 |
+| ChromaDB           | Vector database and semantic retrieval       |
+| RAG                | Context-aware knowledge retrieval            |
+| arXiv API          | Academic paper discovery                     |
+| IBM Cloud Lite     | Cloud infrastructure                         |
+| Python             | Application development                      |
 
-Chat Output
+---
 
-Displays research summaries and insights.
+## Components
 
-Project Workflow
-User submits a research query.
-Agent analyzes the query.
-arXiv retrieves relevant papers.
-ChromaDB performs semantic retrieval.
-RAG combines retrieved information.
-IBM Granite generates insights.
-Results are displayed to the user.
-Screenshots
+### Chat Input
 
-Upload:
+Captures research queries and user requests.
 
-LangFlow workflow screenshot
-Architecture diagram
-Output screenshot
+### IBM Granite Model
 
-Example:
+Processes queries and generates intelligent responses.
 
-screenshots/
-├── workflow.png
-├── architecture.png
-└── output.png
-Future Scope
-IEEE Xplore Integration
-Google Scholar Integration
-Automated Citation Generation
-Research Gap Detection
-Research Report Generation
-Multi-document Analysis
-Project Structure
-Smart-Research-Assistant/
-│
-├── README.md
-├── app.json
-├── presentation.pptx
-├── problem_statement.pdf
-├── screenshots/
-├── architecture.png
-└── requirements.txt
-Developer
+### Research Agent
+
+Coordinates tool execution and manages research workflows.
+
+### ChromaDB
+
+Stores vector embeddings for semantic retrieval.
+
+### arXiv Integration
+
+Retrieves relevant academic publications.
+
+### Chat Output
+
+Displays generated summaries, insights, and recommendations.
+
+---
+
+## Applications
+
+* Literature Review Automation
+* Academic Research Assistance
+* Research Trend Analysis
+* Knowledge Discovery
+* Technical Report Generation
+* Research Gap Identification
+
+---
+
+## Future Enhancements
+
+* Google Scholar Integration
+* IEEE Xplore Integration
+* Automated Citation Generation
+* Multi-Document Analysis
+* Research Report Generation
+* Collaborative Research Workspace
+
+---
+
+## Author
 
 C. Mohan Raaj
 B.E. Computer Science and Engineering
